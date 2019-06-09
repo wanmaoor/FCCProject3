@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #eeeeee;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #eee;
+}
+
+header .logo img {
+  margin: auto;
+  width: 300px;
+}
+
+header nav ul {
+  margin: 6px;
+}
+
+header nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.input {
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
+.input h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.input form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input input[type='email'] {
+  width: 250px;
+  margin-bottom: 40px;
+}
+
+.input input[type='submit'] {
+  font-weight: 800;
+  border: none;
+  background-color: #f1c40f;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.input input[type='submit']:hover {
+  background-color: #c1c40f;
+}
+
+main section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main section .icon {
+  display: flex;
+  flex-direction: column;
+  margin-right: 60px;
+}
+
+main section .icon div {
+  margin-top: 40px;
+}
+
+main section .content article {
+  margin-top: 40px;
+}
+
+
+.video {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 200px;
+}
+
+.cards {
+  display: flex;
+  width: 100%;
+  margin-top: 90px;
+}
+
+.cards .card {
+  text-align: center;
+  border: 1px solid black;
+  margin: 15px;
+}
+
+.cards .card .title {
+  background-color: #dddddd;
+  padding: 10px;
+}
+
+.cards .card .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  line-height: 1.6;
+  padding: 40px;
+}
+
+.cards .card .content p {
+  margin-top: 10vh;
+}
+
+.cards .card .content button {
+  font-weight: 800;
+  border: none;
+  background-color: #f1c40f;
+  padding: 10px;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #ddd;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+footer nav ul {
+  display: flex;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+
+footer nav ul li {
+  list-style: none;
+  margin: 5px;
+}
+
+footer nav ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+footer p {
+  margin-right: 5px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 200;
+}
